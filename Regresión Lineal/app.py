@@ -21,7 +21,7 @@ def datos():
  decoded = json.loads(data_string)
  precision0 = str(decoded["0"]["precision"])
  precision1 = str(decoded["1"]["precision"])
- return "<h1>El valor obtenido el score de presición es </h1>" + "<h3>"+str(information[0])+"</h3>" + "<h1>El resumen de la información es: </h1>"+ "<h3> La presición para 0 es "+precision0+"</h3>" + "<h3> La presición para 1 es "+precision1+"</h3>" 
+ return "<h1>El valor obtenido para el score de presición es </h1>" + "<h3>"+str(information[0])+"</h3>" + "<h1>El resumen de la información es: </h1>"+ "<h3> La presición para 0 es "+precision0+"</h3>" + "<h3> La presición para 1 es "+precision1+"</h3>" 
 
 
 if __name__ == '__main__':
